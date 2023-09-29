@@ -11,7 +11,8 @@ export default function Test({ test }: { test: string }) {
   return (
     <>
       <Link href="/">Home</Link>
-      <Link href="/test">test</Link>
+      <br />
+      <Link href="/test">Test</Link>
       <p>Test - {test}</p>
     </>
   );

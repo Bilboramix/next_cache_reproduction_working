@@ -20,7 +20,8 @@ export default function Home({ test }: { test: string }) {
       </Head>
       <main>
         <Link href="/">Home </Link>
-        <Link href="/test">test</Link>
+        <br />
+        <Link href="/test">Test</Link>
         <p>Homepage - {test}</p>
       </main>
     </>
